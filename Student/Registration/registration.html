@@ -1,0 +1,77 @@
+<body class="bgcolor">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="/Lib/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/NavBar/navBar.css">
+    <!-- <link rel="stylesheet" href="/Lib/bootstrap.css"> -->
+
+    <!-- Part of navbar -->
+
+    <div id="navBar"></div>
+
+    <br><br><br>
+    <!-- Navbar part End -->
+    
+    <!-- Start form part -->
+    
+    <div class="align-items-center justify-content-center mt-4 m-3">
+        <div class="width">
+            <div class="row  shadow border-3 bg-white m-3">
+                <h3 class="text-uppercase text-secondary text-center">Registration</h3>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="inputname" placeholder="Name">
+                    <p id="name"></p>
+                </div>
+                <div class="col-12">
+                    <input type="number" class="form-control" id="inputage" placeholder="Age">
+                    <p id="age"></p>
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="inputgender" placeholder="Gender">
+                    <p id="gender"></p>
+                </div>
+                <div class="col-12">
+                    <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                    <p id="email"></p>
+                </div>
+                <div class="col-12">
+                    <input type="password" class="form-control" id="inputpassword" placeholder="Password">
+                    <p id="password"></p>
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="inputaddress" placeholder="Address">
+                    <p id="address"></p>
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="inputcity" placeholder="City">
+                    <p id="city"></p>
+                </div>
+
+                <div class="col-12">
+                    <input type="number" class="form-control" id="inputzip" placeholder="Zip" required>
+                    <p id="zip"></p>
+                </div>
+
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary m-2 " ><a class="text-decoration-none text-white" href="javascript:void(0)" onclick="createRegData('/Login/login.html')">Save</a></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End form part -->
+
+    <!-- Start footer -->
+
+    <div id="footer"></div>
+
+    <!-- End footer -->
+
+    <script src="/js/footer.js"></script>
+    <script src="/js/navBar.js"></script>
+    <script src="registration.js"></script>
+
+</body>
+
+</html>

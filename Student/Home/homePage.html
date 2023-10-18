@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.student_portal.com</title>
+    <link rel="stylesheet" href="/NavBar/navBar.css">
+    <link rel="stylesheet" href="/Lib/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body class="bgsize">
+ 
+
+    <!-- Start navbar -->
+
+    <div id="navBar"></div>
+
+    <!-- End navbar -->
+
+    <br><br><br>
+
+    <!-- Text Contant -->
+    <div class="row flex-xl-nowrap min-vh-100 bgimage">
+
+        <!-- Start notice bar -->
+        <div class="col-12 col-md-2 col-xl-2 bd-sidebar shadow  p-3 mb-5 ">
+            <nav class="h-100">
+                <div>
+                    <a class="nav-link  text-dark">Notifications
+                    </a>
+                    <hr>
+                </div>
+                <marquee behavior="" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+                    <div id="dynamicNav">
+                    </div>
+                </marquee>
+            </nav>
+        </div>
+        <!-- End notice bar -->
+
+        <!-- Start Area Content -->
+        <div class="col-12 col-md-10 col-yl-8 py-md-3 pl-md-5 bd-content bgcolor">
+            <div id="carouselExampleAutoplaying " class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner h-50" id="ul">
+                    <div class="carousel-item active " id="li1">
+                        <img src="/Images/slideImage1.jpeg" alt="" class="d-block w-100 h-50" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" onclick="prev()" type="button"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" id="button-prev">
+                    <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" onclick="next()" type="button"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" id="button-next">
+                    <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+
+            <!-- Start first image with details -->
+
+            <div class="row flex-xl-nowrap" id="img12">
+
+            </div>
+            <!-- End first image with details -->
+
+            <hr>
+
+            <!-- Start second image with details -->
+
+            <div class="row flex-xl-nowrap" id="img2">
+
+            </div>
+            <!-- End second image with details -->
+
+        </div>
+    </div>
+    <!-- End Area Content -->
+
+    <!-- Start footer -->
+
+    <div id="footer"></div>
+
+    <!-- End footer -->
+
+    <script src="home.js"></script>
+    <script src="/js/footer.js"></script>
+    <script src="/js/navBar.js"></script>
+</body>
+
+</html>

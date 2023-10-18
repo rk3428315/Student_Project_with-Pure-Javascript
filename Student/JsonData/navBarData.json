@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Registration",
+        "link":"/Registration/registration.html"
+    },
+    {
+        "name":"Login",
+        "link":"/Login/login.html"
+    },
+    {
+        "name":"Contact Us",
+        "link":"/contactUs/contactUs.html"
+    }
+]

@@ -1,0 +1,56 @@
+
+
+<body class="bgcolor">
+    <link rel="stylesheet" href="/Lib/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/NavBar/navBar.css">
+    <link rel="stylesheet" href="/Login/login.css">
+    <!-- <link rel="stylesheet" href="/Lib/bootstrap.css"> -->
+    <!-- Part of navbar -->
+
+    <div id="navBar"></div>
+    <!-- Navbar part End -->
+
+    <br><br><br>
+
+
+    <!-- Start form part -->
+    <div class="align-items-center mt-5 ">
+        <div class="width text-center">
+            <form class="row g-3 shadow border-3 bg-white m-3" >
+                <h3 class="text-uppercase text-secondary" >Login</h3>
+                <div>
+                    <div>
+                        <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                        <p id="email"></p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input type="password" class="form-control" id="inputpassword" placeholder="Password" >
+                        <p id="password"></p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <button type="submit" class="btn btn-primary m-2 " ><a href="javascript:void(0)" onclick="getLoginData()" class="text-white text-decoration-none" >Login</a></button>
+                    <p ><a href="/Home/homePage.html" class="text-decoration-none text-dark" style="color: rgb(138, 118, 224);">forget password !</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <!-- End form part -->
+
+    <!-- Start footer -->
+
+    <div id="footer"></div>
+
+    <!-- End footer -->
+    <script src="/js/footer.js"></script>
+    <script src="/js/navBar.js"></script>
+    <script src="login.js"></script>
+    <!-- <script src="/js/dashboard-home.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.bgcolor{
+    /* background-image: url('/Images/background.jpg'); */
+    
+    background-color: #dee2e6;
+}
+.bgsize{
+    width: 98%;
+}
+
+.showActive{
+    background-color: #2c92eb;
+}
+
+.showActive1{
+    text-shadow: 0 0 black;
+}
+
+.activeProfile{
+    display: block;
+}
